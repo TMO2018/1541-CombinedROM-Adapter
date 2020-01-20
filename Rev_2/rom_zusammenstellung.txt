@@ -1,0 +1,14 @@
+1541
+Kombiniertes ROM mit Kernal-Umschaltung
+
+copy /b 901229-05.bin + 325302-01.bin org.bin
+copy /b JiffyDOS_1541.bin + 325302-01.bin jd.bin
+copy /b org.bin + jd.bin org_jd.bin
+
+1541-CombinedROM-Adapter Rev.0.2:
+Jumper nach GND geschlossen -> CBM-DOS
+Jumper nach GND offen -> JiffyDos
+
+!!! Kein Jumper nach Vcc setzen !!! => +5V-Versorgung für kapazitiven Taster
+
+

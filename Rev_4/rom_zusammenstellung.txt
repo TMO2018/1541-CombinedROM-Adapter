@@ -1,0 +1,24 @@
+1541
+Kombiniertes ROM mit Kernal-Umschaltung
+
+Windows:
+copy /b 901229-05.bin + 325302-01.bin org.bin 
+copy /b JiffyDOS_1541.bin + 325302-01.bin jd.bin
+copy /b ieee488rom_Welte.bin + 325302-01.bin Welte.bin
+copy /b ieee488rom_64er.bin + 325302-01.bin 64er.bin
+copy /b org.bin + jd.bin + Welte.bin + 64er.bin rom.bin
+
+OSX:
+cat 901229-05.bin 325302-01.bin > org.bin
+cat jiffyDOS_1541.bin 325302-01.bin > jd.bin
+cat ieee488rom_Welte.bin 325302-01.bin > Welte.bin
+cat ieee488rom_64er.bin 325302-01.bin > 64er.bin
+cat org.bin jd.bin Welte.bin 64er.bin > rom.bin
+
+1541-CombinedROM-Adapter Rev.0.4:
+(J2 -> A14, J5 -> A15)
+J5 offen, J2 offen -> 2031-DOS 64er
+J5 offen, J2 geschlossen -> 2031-DOS Niclas Welte
+J5 geschlossen, J2 offen -> JiffyDos
+J5 geschlossen, J2 geschlossen -> CBM-DOS
+

@@ -1,0 +1,30 @@
+Rev 0.2 (27C256)
+
+J2        1x Stiftleiste, 2,54mm, 2 polig gerade, eckige Pins (Reichelt MPE 087-1-002)
+
+J1,J3,J4  2x Präzisions-Stiftleiste, 40 polig, 2,54mm, runde Pins (Reichelt BKL 10120540) -> daraus herstellen: 2x 24 polig und 1x 3 polig
+
+U1        1x IC-Sockel, 28-polig, doppelter Federkontakt, Reihenabstand 15,24mm (Reichelt GS 28)
+
+D1,D2     2x Schottkydiode SB140, 40 V, 1 A, DO-41 (Reichelt SB 140)
+
+R1,R2     2x Widerstand, Kohleschicht, 4,7 kOhm, 0207, 250 mW, 5% (Reichelt 1/4W 4,7K)
+
+J2        1x Kurzschlussbrücke, schwarz, RM 2,54 (Reichelt JUMPER 2,54 SW)
+
+Hinweis: Anschluss JP2 VCC (+5V) nicht mit einem Kontakt der Stiftleiste versehen, da sonst eine Fehlbedienung durch Setzen des Jumpers möglich ist 
+
+
+Rev 0.4 (27C512)
+
+J2,J5     2x Stiftleiste, 2,54mm, 2 polig gerade, eckige Pins (Reichelt MPE 087-1-002)
+
+J1,J3,J4  3x Präzisions-Stiftleiste, 40 polig, 2,54mm, runde Pins (Reichelt BKL 10120540) -> daraus herstellen: 2x 24 polig und 1x 3 polig
+
+U1        1x IC-Sockel, 28-polig, doppelter Federkontakt, Reihenabstand 15,24mm (Reichelt GS 28)
+
+D1,D2     2x Schottkydiode SB140, 40 V, 1 A, DO-41 (Reichelt SB 140)
+
+R1,R2,R3  3x Widerstand, Kohleschicht, 4,7 kOhm, 0207, 250 mW, 5% (Reichelt 1/4W 4,7K)
+
+J2,J5     2x Kurzschlussbrücke, schwarz, RM 2,54 (Reichelt JUMPER 2,54 SW)
